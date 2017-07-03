@@ -22,5 +22,11 @@ Aside of pointing to the published files, .meta files store related metadata. In
 
 Stored in .meta files metadata must be standartized, so it can be properly displayed by apps. It can be achived with a special `!schema` key, placed in a `.meta` file (for ex `"!shema": "music-album:v1"`).
 
+## Follow us on...
+
+- Twitter: [@MetabinSpace](https://twitter.com/MetabinSpace)
+- Telegram: [@metabin](t.me/metabin)
+- VK: [@metabin](vk.com/metabin)
+
 # License
 MIT
