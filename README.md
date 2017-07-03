@@ -2,6 +2,8 @@
 
 Sharing can be simpler, more effective, more distributed.
 
+The goal is to create a self-sufficient data sharing platform for next-generation distributed apps, where decentralization does not harm user experience and functionality.
+
 ## Core ideas
 
 - **Filesystem as API**
@@ -19,8 +21,6 @@ Aside of pointing to the published files, .meta files store related metadata. In
 - **Community developed meta-schemas**
 
 Stored in .meta files metadata must be standartized, so it can be properly displayed by apps. It can be achived with a special `!schema` key, placed in a `.meta` file (for ex `"!shema": "music-album:v1"`).
-
-The goal is to create a self-sufficient data sharing platform for next-generation distributed apps, where decentralization does not harm user experience and functionality.
 
 # License
 MIT
