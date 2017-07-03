@@ -1,4 +1,4 @@
-![](/banner.png)
+![](/_banner.png)
 
 Sharing can be simpler, more effective, more distributed.
 
