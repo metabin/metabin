@@ -24,9 +24,9 @@ Stored in .meta files metadata must be standartized, so it can be properly displ
 
 ## Follow us on...
 
-- Twitter: [@MetabinSpace](https://twitter.com/MetabinSpace)
-- Telegram: [@metabin](t.me/metabin)
-- VK: [@metabin](vk.com/metabin)
+- Twitter: [@MetabinSpace](http://twitter.com/MetabinSpace)
+- Telegram: [@metabin](http://t.me/metabin)
+- VK: [@metabin](http://vk.com/metabin)
 
 # License
 MIT
