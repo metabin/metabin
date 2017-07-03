@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="banner.svg"
+   inkscape:version="0.92+devel unknown">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.59"
+     inkscape:cx="501.95342"
+     inkscape:cy="561.25984"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer5"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:measure-start="548.181,454.556"
+     inkscape:measure-end="709.8,690.754"
+     inkscape:window-width="1280"
+     inkscape:window-height="906"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="background"
+     style="display:inline"
+     transform="translate(0,-87)">
+    <rect
+       style="fill:#161920;fill-opacity:1;stroke:none;stroke-width:1.72221899;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4298"
+       width="265.62674"
+       height="131.82846"
+       x="15.68663"
+       y="126.08577"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/mnt/sda5/Projects/metabin.space/metabin/banner.png" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3"
+     style="display:inline"
+     transform="translate(0,-87)" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(0,-87)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline"
+     transform="translate(0,-87)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="nodes"
+     style="display:inline"
+     transform="translate(0,-87)">
+    <g
+       id="g34"
+       transform="matrix(0.38231877,0,0,0.38231877,108.30303,111.55497)"
+       inkscape:export-filename="/mnt/sda5/Projects/metabin.space/metabin/banner.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         clip-path="none"
+         mask="none"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path3462"
+         d="M 81.744223,121.59452 C 68.587164,139.87377 66.279487,158.29035 65.103715,176.72126 L 128.39904,121.58359"
+         style="display:inline;fill:none;fill-opacity:1;stroke:#ff255c;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         mask="none"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path5150"
+         d="m 106.81356,143.45739 -3.52792,-3.02569"
+         style="display:inline;fill:none;stroke:#161920;stroke-width:6.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         style="display:inline;fill:none;stroke:#53f592;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 128.39904,121.60545 c 13.15705,18.27925 15.46473,36.69583 16.6405,55.12674 L 81.744223,121.59452"
+         id="path3479"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <ellipse
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         style="fill:#53f592;fill-opacity:1;fill-rule:evenodd;stroke:#161920;stroke-width:2.00917959px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="ellipse4292"
+         cx="127.82262"
+         cy="122.02563"
+         rx="6.3221498"
+         ry="6.3221502" />
+      <ellipse
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         ry="6.3221507"
+         rx="6.3221498"
+         cy="175.98502"
+         cx="144.4946"
+         id="ellipse4296"
+         style="fill:#53f592;fill-opacity:1;fill-rule:evenodd;stroke:#161920;stroke-width:2.00917959px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         ry="6.3221502"
+         rx="6.3221507"
+         style="fill:#ff255c;fill-opacity:1;fill-rule:evenodd;stroke:#161920;stroke-width:2.00917959px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="ellipse4294"
+         cx="65.785271"
+         cy="175.92207" />
+      <ellipse
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         ry="6.3221502"
+         rx="6.3221507"
+         cy="122.02563"
+         cx="81.844055"
+         id="path3485"
+         style="display:inline;fill:#ff255c;fill-opacity:1;fill-rule:evenodd;stroke:#161920;stroke-width:2.00917959px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="123.82002"
+       y="193.97273"
+       id="text38"
+       inkscape:export-filename="/mnt/sda5/Projects/metabin.space/metabin/banner.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan36"
+         x="123.82002"
+         y="193.97273"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Montserrat;-inkscape-font-specification:Montserrat;letter-spacing:0.26458332px;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">METABIN.SPACE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="114.62245"
+       y="204.0999"
+       id="text847"
+       inkscape:export-filename="/mnt/sda5/Projects/metabin.space/metabin/banner.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan845"
+         x="114.62245"
+         y="204.0999"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">Advanced data sharing platform</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="text"
+     style="display:none"
+     transform="translate(0,-87)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4300"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,0.00928892,-12.602874)"><flowRegion
+         id="flowRegion4302"><rect
+           id="rect4304"
+           width="298.46231"
+           height="62.69022"
+           x="202.72598"
+           y="709.2262" /></flowRegion><flowPara
+         id="flowPara4306"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;text-anchor:middle;fill:#eeeeee;fill-opacity:1">METABIN.SPACE</flowPara></flowRoot>  </g>
+</svg>
