@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49968378"
-     inkscape:cx="425.58742"
+     inkscape:cx="353.54186"
      inkscape:cy="299.97324"
      inkscape:document-units="mm"
      inkscape:current-layer="layer5"
@@ -125,7 +125,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">Advanced file sharing platform</tspan></text>
     <g
        id="g4620"
-       transform="matrix(0.46978348,0,0,0.46978348,104.84431,79.76429)">
+       transform="matrix(0.46978348,0,0,0.46978348,104.84431,79.76429)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <path
          id="path4609"
          d="m 131.59855,218.86724 c -1.84576,-0.26063 -3.47649,-1.49026 -4.18526,-3.15585 -0.30913,-0.72644 -0.41271,-1.25405 -0.41271,-2.10222 0,-0.65126 0.0186,-0.8325 0.12766,-1.24717 0.26097,-0.99184 0.71737,-1.80189 1.39843,-2.48206 2.07918,-2.07642 5.40872,-2.07982 7.48089,-0.008 2.09211,2.0921 2.06903,5.45718 -0.0516,7.52147 -0.72446,0.70522 -1.63777,1.19605 -2.60362,1.39922 -0.45917,0.0966 -1.33347,0.1336 -1.75381,0.0743 z"
@@ -176,7 +178,9 @@
        style="fill:none;stroke:#ffffff;stroke-width:0.25115621px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.14778341"
        d="M 26.200653,227.22039 H 270.79935"
        id="path190"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <g
        id="g1435"
        transform="matrix(0.023759,0,0,0.023759,211.84259,273.51327)">
@@ -257,7 +261,9 @@
     </g>
     <g
        id="g1707"
-       transform="translate(3.3312469,40.822148)">
+       transform="translate(3.3312469,40.822148)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <g
          transform="translate(-3.2453623,-41.027185)"
          id="g1627">
