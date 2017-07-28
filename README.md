@@ -18,21 +18,29 @@ The goal is to create a self-sufficient file sharing platform for next-generatio
 
 To publish a file all you need is to create a same name `.meta` file in the same place.
 
-[how is that?](/docs/test.md)
+[details](/docs/fs-as-api/doc.md)
 
 - **Combined publications**
 
-Publications can be combined in a higher-level publications. For example, separatly published audio-files can be also published together as an album.
+Publications can be combined in a higher-level publications. For example, separately published audio-files can be also published together as an album.
+
+[details](/docs/combined/doc.md)
 
 - **Metadata included**
 
 Aside of pointing to the published files, .meta files store related metadata. In case of audio-file it can be track number, artist name an so on.
 
+[details](/docs/metadata/doc.md)
+
 - **Community developed meta-schemas**
 
-Stored in .meta files metadata must be standartized, so it can be properly displayed by apps. It can be achived with a special `!schema` key, placed in a `.meta` file (for ex `"!shema": "music-album:v1"`).
+Stored in .meta files metadata must be standartized, so it can be recognized by apps. It can be achived with a special `!schema` key, placed in a `.meta` file (for ex `"!shema": "music-album:v1"`).
+
+[details](/docs/schemas/doc.md)
 
 ## Problem
+
+
 
 ## Follow us
 
