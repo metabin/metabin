@@ -18,6 +18,8 @@ The goal is to create a self-sufficient file sharing platform for next-generatio
 
 To publish a file all you need is to create a same name `.meta` file in the same place.
 
+[how is that?] (/docs/test.md)
+
 - **Combined publications**
 
 Publications can be combined in a higher-level publications. For example, separatly published audio-files can be also published together as an album.
