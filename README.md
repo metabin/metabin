@@ -6,11 +6,35 @@ The goal is to create a self-sufficient file sharing ecosystem for next-generati
 
 ## Table of Contents
 
-- [Project structure](#project-structure)
-- [Core ideas](#core-ideas)
 - [Problem](#problem)
+- [Proposal](#proposal)
+- [Project structure](#project-structure)
 - [Follow us](#follow-us)
 - [License](#license)
+
+## Problem
+
+BitTorrent ecosystem is stuck. First of all it caused by protocol itslef and it's limited scalability. Here is some main flaws.
+
+- *Torrent-limited scale.* If copies of the same file come across several different torrents, they still do not complement each other as an alternative sources for those who download this file.
+
+- *Torrent-catalogs dependence.* BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs. There is no reliable distributed and user-friendly alternative for torrents discovery.
+
+- *Lack of metadata.* Another reason why torrent-catalogs emmerged. BitTorrent is all about file sharing, related metadata such as artist's info, posters, trailers usually placed separately on catalog's web-pages.
+
+It's easy to see that current BitTorrent ecosystem scale became possible mostly because of torrent-catalogs - centralized and therefore highly vulnerable resources.
+
+## Proposal
+
+This propblems are possible to solve, in fact some of them already are. Here is some proposals we believe make file sharing great again.
+
+- File sharing ecosystem must move towards IPFS. It already solved *torrent-limited scale* problem.
+
+- Metadata and actual data (stored in files) must be tied together and shared the same way.
+
+- Metadata must include as many information as it required to display a high-quality preview.
+
+- Data must be standardized across all the sharing space. Therefore community-developed schemas needed that will be used to describe it. Schemas will act as an agreement between those who share and those who develop IPFS-based apps.
 
 ## Project structure
 
@@ -21,32 +45,6 @@ Set of libraries and services for community-driven developing and maintaining of
 - [Metabin share](https://github.com/metabin/metabin-client)
 
 Desktop cli and gui applications that makes it possible to share you local files in IPFS using metabin data schemas.
-
-## Core ideas
-
-- **Filesystem as API**
-
-To publish a file all you need is to create a same name `.meta` file in the same place.
-
-[details](/docs/fs-as-api/doc.md)
-
-- **Combined publications**
-
-Publications can be combined in a higher-level publications. For example, separately published audio-files can be also published together as an album.
-
-[details](/docs/combined/doc.md)
-
-- **Metadata included**
-
-Aside of pointing to the published files, .meta files store related metadata. In case of audio-file it can be track number, artist name an so on.
-
-[details](/docs/metadata/doc.md)
-
-- **Community developed meta-schemas**
-
-Stored in .meta files metadata must be standartized, so it can be recognized by apps. It can be achived with a special `!schema` key, placed in a `.meta` file (for ex `"!shema": "music-album:v1"`).
-
-[details](/docs/schemas/doc.md)
 
 ## Follow us
 
