@@ -28,13 +28,13 @@ It's easy to see that current BitTorrent ecosystem scale became possible mostly 
 
 This propblems are possible to solve, in fact some of them already are. Here is some proposals we believe make file sharing great again.
 
-- File sharing ecosystem must move towards IPFS. It already solved *torrent-limited scale* problem.
+- File sharing ecosystem must move towards IPFS. There are no *torrent-limited scale* problem.
 
 - Metadata and actual data (stored in files) must be tied together and shared the same way.
 
 - Metadata must include as many information as it required to display a high-quality preview.
 
-- Data must be standardized across all the sharing space. Therefore community-developed schemas needed that will be used to describe it. Schemas will act as an agreement between those who share and those who develop IPFS-based apps.
+- Data must be standardized across the sharing space. Therefore community-developed schemas needed. Schemas will act as an agreement between those who share and those who develop IPFS-based apps on how metadata should be described.
 
 ## Project structure
 
