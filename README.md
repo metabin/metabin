@@ -18,7 +18,7 @@ BitTorrent ecosystem is stuck. First of all it caused by protocol itslef and it'
 
 - *Torrent-limited scale.* If copies of the same file come across several different torrents, they still do not complement each other as an alternative sources for those who download this file.
 
-![](/images/torrent-limited-scale.svg)
+![](/images/torrent-limited-scale.png)
 
 - *Torrent-catalogs dependence.* BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs. There is no reliable distributed and user-friendly alternative for torrents discovery.
 
