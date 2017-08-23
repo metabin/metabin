@@ -22,6 +22,8 @@ BitTorrent ecosystem is stuck. First of all it caused by protocol itslef and it'
 
 - *Torrent-catalogs dependence.* BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs. There is no reliable distributed and user-friendly alternative for torrents discovery.
 
+![](/images/torrent-catalogs-dependence.png)
+
 - *Lack of metadata.* Another reason why torrent-catalogs emmerged. BitTorrent is all about file sharing, related metadata such as artist's info, posters, trailers usually placed separately on catalog's web-pages.
 
 It's easy to see that current BitTorrent ecosystem scale became possible mostly because of torrent-catalogs - centralized and therefore highly vulnerable resources.
