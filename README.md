@@ -14,38 +14,26 @@ The goal is to create a self-sufficient file sharing ecosystem for next-generati
 
 ## Problem
 
-Today's BitTorrent-based ecosystem is stuck. Here is some main flaws.
+Today's BitTorrent-based ecosystem is stuck. Protocol itself is not very suitable for global-scale sharing but there is also cummunity-related issues we need to solve.
 
 
 - **Torrent-catalogs dependence.** BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs. There is no reliable distributed and user-friendly alternative for torrents discovery.
 
-<details><summary>details</summary><p>
-
 ![](/images/torrent-catalogs-dependence.png)
 
-What happens if this web-ctalog get closed? Sure, download-guy will continue downloading because he is already directly connected with share-guy. But from this moment there is no (easy) way to find this torrent unless it get published somewhere else.
-
-</p></details>
+What happens if this web-ctalog get offline for some reason? Download-guy will continue downloading because he is already connected to share-guy. But from this moment there is no (easy) way to find this torrent unless it get published somewhere else.
 
 ---
 
-- **Lack of metadata.** Another reason why torrent-catalogs emmerged. BitTorrent is all about file sharing, related metadata such as artist's info, posters, trailers usually placed separately on catalog's web-pages.
-
-It's easy to see that current BitTorrent ecosystem scale became possible mostly because of torrent-catalogs - centralized and therefore highly vulnerable resources.
-
-<details><summary>details</summary><p>
+- **Lack of metadata.** Another reason why torrent-catalogs emmerged. BitTorrent is all about file sharing, therefore all related metadata such as artist's info, posters, trailers usually placed on catalog's web-pages.
 
 ![](/images/lack-of-metadata.png)
 
 It's possible to place all necessary metadata inside of a torrent and describe it in a standardized way. But because of protocol architecture (mostly **Torrent-limited scale** problem described next) such approach leads to unnecessary data duplication and it will be difficult to maintain in general.
 
-</p></details>
-
 ---
 
 **Torrent-limited scale.** If copies of the same file come across several different torrents, they still do not complement each other as an alternative sources for those who download this file.
-
-<details><summary>details</summary><p>
 
 ![](/images/torrent-limited-scale.png)
 
@@ -53,9 +41,9 @@ It's possible to place all necessary metadata inside of a torrent and describe i
 
 Because of such architecture you can easily end up in a situation, when torrent you interested in has no online seeds, but same files are available under several different torrents with large swarms. And you have to manually crawl different web-ctalogs untill you meet some of this active torrents.
 
-</p></details>
-
 ---
+
+It's easy to see that current BitTorrent ecosystem scale became possible mostly because of torrent-catalogs - centralized and therefore highly vulnerable resources.
 
 ## Proposal
 
