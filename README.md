@@ -17,7 +17,9 @@ The goal is to create a self-sufficient file sharing ecosystem for next-generati
 Today's BitTorrent-based ecosystem is stuck. Protocol itself is not very suitable for global-scale sharing but there is also cummunity-related issues we need to solve.
 
 
-- **Torrent-catalogs dependence.** BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs. There is no reliable distributed and user-friendly alternative for torrents discovery.
+### Torrent-catalogs dependence
+
+BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs. There is no reliable distributed and user-friendly alternative for torrents discovery.
 
 ![](/images/torrent-catalogs-dependence.png)
 
@@ -25,7 +27,9 @@ What will happen if this torrent-catalog get offline for some reason? Download-g
 
 ---
 
-- **Lack of metadata.** Another reason why torrent-catalogs emmerged. BitTorrent is all about file sharing, therefore all related metadata such as artist's info, posters, trailers usually placed on catalog's web-pages.
+### Lack of metadata
+
+Another reason why torrent-catalogs emmerged. BitTorrent is all about file sharing, therefore all related metadata such as artist's info, posters, trailers usually placed on catalog's web-pages.
 
 ![](/images/lack-of-metadata.png)
 
@@ -33,7 +37,9 @@ It's possible to place all necessary metadata inside of a torrent and describe i
 
 ---
 
-**Torrent-limited scale.** If copies of the same file come across several different torrents, they still do not complement each other as an alternative sources for those who download this file.
+### Torrent-limited scale
+
+If copies of the same file come across several different torrents, they still do not complement each other as an alternative sources for those who download this file.
 
 ![](/images/torrent-limited-scale.png)
 
@@ -41,7 +47,7 @@ It's possible to place all necessary metadata inside of a torrent and describe i
 
 Because of this you can easily end up in a situation, when torrent you interested in has no online seeds, but same files are available under several different torrents with large swarms. And you have to manually crawl different web-ctalogs untill you meet some of this active torrents.
 
-### proposal
+#### proposal
 
 - File sharing ecosystem must move towards IPFS. It has different architecture with no *torrent-limited scale* problem.
 
