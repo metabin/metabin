@@ -18,11 +18,26 @@ BitTorrent ecosystem is stuck. First of all it caused by protocol itslef and it'
 
 - *Torrent-limited scale.* If copies of the same file come across several different torrents, they still do not complement each other as an alternative sources for those who download this file.
 
+<details><summary>details</summary><p>
+
 ![](/images/torrent-limited-scale.png)
+
+*The same applies to torrents with copies of the same file named differently.*
+
+Because of such architecture you can easily end up in a situaton, when torrent you interested in has no online seeds, but same files are available under several different torrents with large swarms. And you have to manually crawl different web-ctalogs untill you meet some of this active torrents.
+
+</p></details>
+
 
 - *Torrent-catalogs dependence.* BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs. There is no reliable distributed and user-friendly alternative for torrents discovery.
 
+<details><summary>details</summary><p>
+
 ![](/images/torrent-catalogs-dependence.png)
+
+What happens if this web-ctalog get closed? Sure, download-guy will continue downloading because he is already has direct connection with share-guy. But from this moment there is no (easy) way to find this torrent unless it get published somewhere else.
+
+</p></details>
 
 - *Lack of metadata.* Another reason why torrent-catalogs emmerged. BitTorrent is all about file sharing, related metadata such as artist's info, posters, trailers usually placed separately on catalog's web-pages.
 
