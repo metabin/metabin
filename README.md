@@ -28,6 +28,7 @@ Because of such architecture you can easily end up in a situaton, when torrent y
 
 </p></details>
 
+---
 
 - *Torrent-catalogs dependence.* BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs. There is no reliable distributed and user-friendly alternative for torrents discovery.
 
@@ -38,6 +39,8 @@ Because of such architecture you can easily end up in a situaton, when torrent y
 What happens if this web-ctalog get closed? Sure, download-guy will continue downloading because he is already has direct connection with share-guy. But from this moment there is no (easy) way to find this torrent unless it get published somewhere else.
 
 </p></details>
+
+---
 
 - *Lack of metadata.* Another reason why torrent-catalogs emmerged. BitTorrent is all about file sharing, related metadata such as artist's info, posters, trailers usually placed separately on catalog's web-pages.
 
