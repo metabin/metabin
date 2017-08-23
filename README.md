@@ -47,9 +47,9 @@ If copies of the same file come across several different torrents, they still do
 
 Because of this you can easily end up in a situation, when torrent you interested in has no online seeds, but same files are available under several different torrents with large swarms. And you have to manually crawl different web-ctalogs untill you meet some of this active torrents.
 
-#### proposal
+#### Proposal
 
-- File sharing ecosystem must move towards IPFS. It has different architecture with no *torrent-limited scale* problem.
+- File sharing ecosystem must move towards IPFS. It has different architecture with a single content-addresded sharing space. Moreover it gives an ability to easilly describe complex relations between files and their metadata within a single graph.
 
 ---
 
