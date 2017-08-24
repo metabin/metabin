@@ -7,7 +7,6 @@ The goal is to create a self-sufficient file sharing ecosystem for next-generati
 ## Table of Contents
 
 - [Problem](#problem)
-- [Proposal](#proposal)
 - [Project structure](#project-structure)
 - [Follow us](#follow-us)
 - [License](#license)
@@ -19,7 +18,7 @@ Today's BitTorrent-based ecosystem is stuck. Protocol itself is not very suitabl
 
 ### Centralized torrent's discovery
  
-BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs (The Pitate Bay, ISOHunt and so on). There is no reliable distributed and user-friendly alternative for torrents discovery.
+BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs (The Pirate Bay, ISOHunt and so on). There is no reliable distributed and user-friendly alternative for torrents discovery.
 
 ![](/images/torrent-catalogs-dependence.png)
 
@@ -72,7 +71,7 @@ Set of libraries and services for community-driven developing and maintaining of
 
 - [Metabin share](https://github.com/metabin/metabin-client)
 
-Desktop cli and gui applications that makes it possible to share you local files in IPFS using metabin data schemas.
+Desktop cli and gui applications that makes it possible to share you local files using metabin data schemas.
 
 ## Follow us
 
