@@ -32,7 +32,7 @@ What will happen if this torrent-catalog get offline for some reason? Download-g
 
 ### Lack of standardized metadata
 
-BitTorrent is all about file sharing. Content-related metadata such as artist's info, posters, trailers usually placed outside of .torrent files, typicaly on dedicated catalog's web-pages. This is another reason why BitTorrent-based ecosystem is catalogs-dependend - web-pages provide a user-friendly previews of what users are going to download.
+Content-related metadata such as artist's info, posters, trailers almost never included in .torrent files. Such data typicaly considered as unnecessary and placed on dedicated catalog's web-pages.
 
 ![](/images/lack-of-metadata.png)
 
