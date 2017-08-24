@@ -32,17 +32,17 @@ What will happen if this torrent-catalog get offline for some reason? Download-g
 
 ### Lack of standardized metadata
 
-Content-related metadata such as artist's info, posters, trailers almost never included in .torrent files. Such data typicaly considered as unnecessary and placed on dedicated catalog's web-pages.
+Content-related metadata such as artist's info, posters, trailers almost never included in .torrent files. Such data typicaly placed on dedicated catalog's web-pages.
 
 ![](/images/lack-of-metadata.png)
 
-It's possible to place all necessary metadata inside of a torrent and describe it in a standardized way. But because of protocol itself (mostly **Torrent-limited scale** issue described next) such approach leads to unnecessary data duplication and it will be difficult to maintain in general.
+Now imagine if all of this data was also included in '.torrent' files. In this case a '.torrent' file can be sent to you with email but your torrent-client will be able to display a custom preiew. Moreover web-catalogs can use such metadata to automaticaly build related web-pages.
 
-Another problem is standardization of data across the sharing space. How will application identify what kind of entity it found? Is it a musical album or audio book? Folder structure differs across torrents with same type of content, the same is for file names.
+To achieve that metadata must be standardized somehow across the sharing space so different apps will be able to understand it.
 
 #### Proposal
 
-- Files and all related metadata must be shared together as a single instance. This makes possible to build an informative high-quality previews of such instances based only on their own content.
+- Files and all related metadata must be shared together as a single instance. This makes possible to build a high-quality previews of such instances based only on their own content.
 - Data structure of such instances must be standardized using community-developed schemas. Schemas will act as an agreement between those who share and those who develop distributed apps on how data should be described.
 
 ---
