@@ -12,28 +12,39 @@ The goal is to create a self-sufficient file sharing ecosystem for next-generati
 - [Follow us](#follow-us)
 - [License](#license)
 
-## Problem
+## Problems
 
 Today's BitTorrent-based ecosystem is stuck. Protocol itself is not very suitable for global-scale sharing but there is also cummunity-related issues we need to solve.
 
 
-### Torrent-catalogs dependence
-
-BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs. There is no reliable distributed and user-friendly alternative for torrents discovery.
+### Centralized torrent's discovery
+ 
+BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs (The Pitate Bay, ISOHunt and so on). There is no reliable distributed and user-friendly alternative for torrents discovery.
 
 ![](/images/torrent-catalogs-dependence.png)
 
 What will happen if this torrent-catalog get offline for some reason? Download-guy will continue downloading because he is already directly connected to share-guy. But from this moment for anyone else there is no (easy) way to find this torrent unless it get published somewhere else.
 
+#### Proposal
+
+- There must be a fully distributed yet easy and effective way to discover shared data instances. It's possible to achieve using, for example, IPFS pub/sub channels. This makes possible to build, for instance, a desktop media-player that autodiscovers new albums shared by others not relying on any third-party resources.
+
 ---
 
-### Lack of metadata
+### Lack of standardized metadata
 
-Another reason why torrent-catalogs emmerged. BitTorrent is all about file sharing, therefore all related metadata such as artist's info, posters, trailers usually placed on catalog's web-pages.
+BitTorrent is all about file sharing. Content-related metadata such as artist's info, posters, trailers usually placed outside of .torrent files, typicaly on dedicated catalog's web-pages. This is another reason why BitTorrent-based ecosystem is catalogs-dependend - web-pages provide a user-friendly previews of what users are going to download.
 
 ![](/images/lack-of-metadata.png)
 
 It's possible to place all necessary metadata inside of a torrent and describe it in a standardized way. But because of protocol itself (mostly **Torrent-limited scale** issue described next) such approach leads to unnecessary data duplication and it will be difficult to maintain in general.
+
+Another problem is standardization of data across the sharing space. How will application identify what kind of entity it found? Is it a musical album or audio book? Folder structure differs across torrents with same type of content, the same is for file names.
+
+#### Proposal
+
+- Files and all related metadata must be shared together as a single instance. This makes possible to build an informative high-quality previews of such instances based only on their own content.
+- Data structure of such instances must be standardized using community-developed schemas. Schemas will act as an agreement between those who share and those who develop distributed apps on how data should be described.
 
 ---
 
@@ -49,23 +60,10 @@ Because of this you can easily end up in a situation, when torrent you intereste
 
 #### Proposal
 
-- File sharing ecosystem must move towards IPFS. It has different architecture with a single content-addresded sharing space. Moreover it gives an ability to easilly describe complex relations between files and their metadata within a single graph.
+-  File sharing ecosystem must move towards IPFS. It has different architecture with a single content-addresded sharing space. Moreover it gives an ability to easilly describe complex relations between files and their metadata within a single graph.
 
 ---
-
-It's easy to see that current BitTorrent ecosystem scale became possible mostly because of torrent-catalogs - centralized and therefore highly vulnerable resources.
-
-## Proposal
-
-This propblems are possible to solve, in fact some of them already are. Here is some proposals we believe make file sharing great again.
-
-
-- Files and all related metadata must be shared together.
-
-- Metadata must include as many information as it required to display a high-quality preview.
-
-- Data must be standardized across the sharing space. Therefore community-developed schemas needed. Schemas will act as an agreement between those who share and those who develop distributed apps on how shared data should be described.
-
+ 
 ## Project structure
 
 - [Metabin schema](https://github.com/metabin/metabin-schema)
