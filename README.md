@@ -71,7 +71,7 @@ Set of libraries and services for community-driven developing and maintaining of
 
 - [Metabin share](https://github.com/metabin/metabin-client)
 
-Desktop cli and gui applications that makes it possible to share you local files using metabin data schemas.
+Desktop cli and gui applications that makes it possible to share you local files using community-developed data schemas.
 
 ## Follow us
 
