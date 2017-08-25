@@ -16,9 +16,9 @@ The goal is to create a self-sufficient file sharing ecosystem for next-generati
 Today's BitTorrent-based ecosystem is stuck. Protocol itself is not very suitable for global-scale sharing but there is also cummunity-related issues we need to solve.
 
 
-### Centralized torrent's discovery
+### Torrent-catalogs dependence
  
-BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs (The Pirate Bay, ISOHunt and so on). There is no reliable distributed and user-friendly alternative for torrents discovery.
+BitTorrent designed to handle distributed downloads, but links typicaly shared within a special web-catalogs (The Pirate Bay, ISOHunt and so on).
 
 ![](/images/torrent-catalogs-dependence.png)
 
@@ -26,19 +26,19 @@ What will happen if this torrent-catalog get offline for some reason? Download-g
 
 #### Proposal
 
-- There must be a fully distributed yet easy and effective way to discover shared data instances. It's possible to achieve using, for example, IPFS pub/sub channels. This makes possible to build, for instance, a desktop media-player that autodiscovers new albums shared by others not relying on any third-party resources.
+- There must be a fully distributed yet easy and effective way to discover shared data instances. This makes possible to build, for instance, a desktop media-player that autodiscovers new albums shared by others not relying on any third-party resources.
 
 ---
 
-### Lack of standardized metadata
+### Metadata neglected
 
-Content-related metadata such as artist's info, posters, trailers almost never included in .torrent files. Such data typicaly placed on dedicated catalog's web-pages.
+Content-related metadata such as artist's info, posters, trailers almost never included in '.torrent' files. Such data typicaly used on dedicated catalog's web-pages.
 
 ![](/images/lack-of-metadata.png)
 
-Now imagine if all of this data was also included in '.torrent' files. In this case a '.torrent' file can be sent to you with email but your torrent-client will be able to display a custom preiew. Moreover web-catalogs can use such metadata to automaticaly build related web-pages.
+Now imagine if all of this data will be also included in '.torrent' files. In this case a '.torrent' file can be sent to you with email but your torrent-client will be able to display a custom preiew like on image above. Moreover web-catalogs can use such metadata to automaticaly build related web-pages.
 
-To achieve that metadata must be standardized somehow across the sharing space so different apps will be able to understand it.
+To make this possible metadata must be standardized somehow so different apps will be able to understand it.
 
 #### Proposal
 
@@ -59,7 +59,7 @@ Because of this you can easily end up in a situation, when torrent you intereste
 
 #### Proposal
 
--  File sharing ecosystem must move towards IPFS. It has different architecture with a single content-addresded sharing space. Moreover it gives an ability to easilly describe complex relations between files and their metadata within a single graph.
+-  File sharing ecosystem must move towards IPFS. It has different architecture with a single content-addressed sharing space. Moreover it gives an ability to easilly describe complex relations between files and their metadata within a single graph.
 
 ---
  
