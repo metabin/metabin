@@ -6,7 +6,7 @@ The goal is to create a self-sufficient file sharing ecosystem for next-generati
 
 ## Table of Contents
 
-- [Problem](#problem)
+- [Problems](#problems)
 - [Project structure](#project-structure)
 - [Follow us](#follow-us)
 - [License](#license)
