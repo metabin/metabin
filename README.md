@@ -9,6 +9,7 @@ The goal is to create a self-sufficient file sharing ecosystem for next-generati
 - [Problems](#problems)
 - [Project structure](#project-structure)
 - [Follow us](#follow-us)
+- [Donate](#donate)
 - [License](#license)
 
 ## Problems
@@ -78,6 +79,10 @@ Desktop cli and gui applications that makes it possible to share you local files
 - Twitter: [@MetabinSpace](http://twitter.com/MetabinSpace)
 - Telegram: [@metabin](http://t.me/metabin)
 - VK: [@metabin](http://vk.com/metabin)
+
+## Donate
+
+Bitcoin: 12mQU8gMwnY1WepZYhEyKFVCBKVCb67NS4
 
 # License
 MIT
