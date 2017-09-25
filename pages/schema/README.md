@@ -17,7 +17,7 @@ It's like if `.torrent` files came with all necessary metadata that usually put 
 
 Schema specification is a subject to change. Therefore eventually several incompatible specs will be existing simultaneously.
 
-- [1 version](/spec/v1.md)
+- [1 version](pages/v1.md)
 
 ## Roadmap
 

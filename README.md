@@ -6,10 +6,20 @@ The goal is to create a self-sufficient file sharing ecosystem for next-generati
 
 ## Table of Contents
 
-- [Problem](#problem)
 - [Project structure](#project-structure)
+- [Problem](#problem)
 - [Follow us](#follow-us)
 - [License](#license)
+
+## Project structure
+
+- [Metabin schema](pages/schema/README.md)
+
+Set of libraries and services for community-driven developing and maintaining of data schemas.
+
+- [Metabin share](pages/share/README.md)
+
+Desktop cli and gui applications that makes it possible to share you local files using community-developed data schemas.
 
 ## Problems
 
@@ -63,16 +73,6 @@ Because of this you can easily end up in a situation, when torrent you intereste
 
 ---
  
-## Project structure
-
-- [Metabin schema](pages/schema/README.md)
-
-Set of libraries and services for community-driven developing and maintaining of data schemas.
-
-- [Metabin share](pages/share/README.md)
-
-Desktop cli and gui applications that makes it possible to share you local files using community-developed data schemas.
-
 ## Follow us
 
 - Twitter: [@MetabinSpace](http://twitter.com/MetabinSpace)
