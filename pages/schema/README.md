@@ -8,16 +8,10 @@ It's like if `.torrent` files came with all necessary metadata that usually put 
 
 ## Table of Contents
 
-- [Schema specifications](#schema-specifications)
 - [Roadmap](#roadmap)
+- [Schema types](#schema-types)
 - [Examples](#how-does-shema-look)
 - [License](#license)
-
-## Schema specifications
-
-Schema specification is a subject to change. Therefore eventually several incompatible specs will be existing simultaneously.
-
-- [1 version](pages/v1.md)
 
 ## Roadmap
 
@@ -26,9 +20,39 @@ Schema specification is a subject to change. Therefore eventually several incomp
   - [ ] spec v1
     - [ ] js
 
+## Schema types
+
+Types listed below can be used to declare a schema fields.
+
+Type | Declaring | Value expample
+------------ | ------------- | -------------
+text string | `"string"` | `"Another Pirated Movie Title"`
+number | `"number"` | `2017`
+boolean | `"boolean"` | `false`
+ENUM value | `[[ "E", "N", "U", "M" ]]` |  `0` or `1` or `2` or `3`
+
+Also schema field can store a nested schema in a form of a simple object with it's own fields.
+
+```json
+{
+  "field": "string",
+  "nested": {
+    "field: "boolean"
+  }
+}
+```
+
+Also it's possible to declare an array of a single type.
+
+```json
+{
+  "field": ["string"]
+}
+```
+
 ## How does schema look?
 
-Any schema looks like an associative dictionary of `field_name : field_type` pairs. Anyone who uses such a schema should follow this dictionary to describe all necessary metadata for published files.
+Any schema looks like an associative dictionary of `field_name : field_type` pairs. Anyone who uses such a schema should follow this dictionary to describe all necessary metadata for published data.
 
 ```json
 {
