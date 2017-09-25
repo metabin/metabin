@@ -65,11 +65,11 @@ Because of this you can easily end up in a situation, when torrent you intereste
  
 ## Project structure
 
-- [Metabin schema](https://github.com/metabin/metabin-schema)
+- [Metabin schema](pages/schema/README.md)
 
 Set of libraries and services for community-driven developing and maintaining of data schemas.
 
-- [Metabin share](https://github.com/metabin/metabin-client)
+- [Metabin share](pages/share/README.md)
 
 Desktop cli and gui applications that makes it possible to share you local files using community-developed data schemas.
 
