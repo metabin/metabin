@@ -93,30 +93,30 @@ Any entity object can be easilly extended so it's possible for community to main
 ```json
 {
   "title": "string",
-    "artist": {
-      "title": "string",
-      "members": [
-        {
-          "first name": "string",
-          "last name": "string",
-          "pseudonym": "string"
-        }
-      ]
-    },
-    "year": "number",
-    "format": [[ "SINGLE", "LIVE", "STUDIO", "EP" ]],
-    "cover": [
+  "artist": {
+    "title": "string",
+    "members": [
       {
-        "size": [[ "SMALL", "MEDIUM", "LARGE" ]],
-        "source": "string"
-      }
-    ],
-    "tracks": [ 
-      {
-        "title": "string",
-        "quality": [[ "web", "cd", "vinyl" ]]
+        "first name": "string",
+        "last name": "string",
+        "pseudonym": "string"
       }
     ]
+  },
+  "year": "number",
+  "format": [[ "SINGLE", "LIVE", "STUDIO", "EP" ]],
+  "cover": [
+    {
+      "size": [[ "SMALL", "MEDIUM", "LARGE" ]],
+      "source": "string"
+    }
+  ],
+  "tracks": [ 
+    {
+      "title": "string",
+      "quality": [[ "web", "cd", "vinyl" ]]
+    }
+  ]
 }
 ```
 
