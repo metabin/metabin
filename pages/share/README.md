@@ -20,13 +20,13 @@ File sharing as simple as possible.
 
 To publish a file all you need is your file manager and text editor. Just create a `.meta` file with the same name and that's it!
 
-![](/images/fs-as-api.png)
+![](images/fs-as-api.png)
 
 - **Combined publications**
 
 Single publications can be easilly combined in a higher-level publications. For example, separately published audio-files can be also published together as an album at the same time.
 
-![](/images/combined.png)
+![](images/combined.png)
 
 - **Metadata included**
 
