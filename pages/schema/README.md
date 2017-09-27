@@ -17,7 +17,7 @@ It's like if `.torrent` files came with all necessary metadata that usually put 
 
 - [ ] web-site for schemas development
 - [x] validation libs
-  - [x] js
+  - [x] [js](https://github.com/metabin/metabin-schema-validator-js)
 
 ## Schema types
 
