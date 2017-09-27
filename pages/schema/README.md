@@ -10,7 +10,7 @@ It's like if `.torrent` files came with all necessary metadata that usually put 
 
 - [Roadmap](#roadmap)
 - [Schema types](#schema-types)
-- [Examples](#how-does-shema-look)
+- [Examples](#examples)
 - [License](#license)
 
 ## Roadmap
