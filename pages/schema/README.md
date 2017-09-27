@@ -49,40 +49,38 @@ Also it's possible to declare an array of a single type.
 }
 ```
 
-## How does schema look?
+## Examples
 
 Any schema looks like an associative dictionary of `field_name : field_type` pairs. Anyone who uses such a schema should follow this dictionary to describe all necessary metadata for published data.
 
 ```json
 {
-  "name": "modular-movie",
-  "spec": 1,
-  "meta": {
-    "title": "string",
-    "director": "#person_schema_hash_link",
-    "year": " number",
-    "genre": [[ "LIVE ACTION", "DOCUMENTARY", "ANIMATION" ]],
-    "trailer": "^trailer",
-    "video": [ "^video" ],
-    "audio": [ "^audio" ],
-    "subtitles": [ "^subtitle" ]
+  "title": "string",
+  "director": {
+    "first name": "string"
+    "last name": "string"
   },
-  "nested": [
+  "year": "number",
+  "genre": [[ "LIVE ACTION", "DOCUMENTARY", "ANIMATION" ]],
+  "trailer": "string",
+  "video": [
     {
-      "name": "trailer",
-      ...
-    },
+      "quality": [[ ... "720p", "1080p", "4k" ]],
+      "source": "string"
+    }
+  ],
+  "audio": [
     {
-      "name": "video",
-      ...
-    },
+      "quality": [[ ... "AC3", "DTS" ]],
+      "language": "string",
+      "original": "boolean",
+      "source": "string"
+    }
+  ],
+  "subtitles": [
     {
-      "name": "audio",
-      ...
-    },
-    {
-      "name": "subtitle",
-      ...
+      "language": "string",
+      "source": "string"
     }
   ]
 }
@@ -94,15 +92,31 @@ Any entity object can be easilly extended so it's possible for community to main
 
 ```json
 {
-  "name": "music-album",
-  "spec": 1,
-  "meta": {
     "title": "string",
-    "artist": "#artist_schema_hash_link",
+    "artist": {
+      "title": "string",
+      "members": [
+        {
+          "first name": "string",
+          "last name": "string",
+          "pseudonym": "string"
+        }
+      ]
+    },
     "year": "number",
     "format": [[ "SINGLE", "LIVE", "STUDIO", "EP" ]],
-    "album-cover": "^album-cover",
-    "tracks": [ "^album-track" ]
+    "cover": [
+      {
+        size: [[ "SMALL", "MEDIUM", "LARGE" ]],
+        source: "string"
+      }
+    ],
+    "tracks": [ 
+      {
+        "title": "string",
+        "quality": [[ "web", "cd", "vinyl" ]]
+      }
+    ]
   },
   "nested": [
     {
