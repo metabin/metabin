@@ -7,8 +7,9 @@ The goal is to create a self-sufficient file sharing ecosystem for next-generati
 ## Table of Contents
 
 - [Project structure](#project-structure)
-- [Problem](#problem)
+- [Problems](#problems)
 - [Follow us](#follow-us)
+- [Donate](#donate)
 - [License](#license)
 
 ## Project structure
@@ -72,12 +73,16 @@ Because of this you can easily end up in a situation, when torrent you intereste
 -  File sharing ecosystem must move towards IPFS. It has different architecture with a single content-addressed sharing space. Moreover it gives an ability to easilly describe complex relations between files and their metadata within a single graph.
 
 ---
- 
+
 ## Follow us
 
 - Twitter: [@MetabinSpace](http://twitter.com/MetabinSpace)
 - Telegram: [@metabin](http://t.me/metabin)
 - VK: [@metabin](http://vk.com/metabin)
+
+## Donate
+
+Bitcoin: 12mQU8gMwnY1WepZYhEyKFVCBKVCb67NS4
 
 # License
 MIT
