@@ -16,9 +16,8 @@ It's like if `.torrent` files came with all necessary metadata that usually put 
 ## Roadmap
 
 - [ ] web-site for schemas development
-- [ ] schemas validation libs
-  - [ ] spec v1
-    - [ ] js
+- [x] validation libs
+  - [x] js
 
 ## Schema types
 
