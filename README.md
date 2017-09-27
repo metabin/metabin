@@ -6,11 +6,21 @@ The goal is to create a self-sufficient file sharing ecosystem for next-generati
 
 ## Table of Contents
 
-- [Problems](#problems)
 - [Project structure](#project-structure)
+- [Problems](#problems)
 - [Follow us](#follow-us)
 - [Donate](#donate)
 - [License](#license)
+
+## Project structure
+
+- [Metabin schema](pages/schema/README.md)
+
+Set of libraries and services for community-driven developing and maintaining of data schemas.
+
+- [Metabin share](pages/share/README.md)
+
+Desktop cli and gui applications that makes it possible to share you local files using community-developed data schemas.
 
 ## Problems
 
@@ -63,16 +73,6 @@ Because of this you can easily end up in a situation, when torrent you intereste
 -  File sharing ecosystem must move towards IPFS. It has different architecture with a single content-addressed sharing space. Moreover it gives an ability to easilly describe complex relations between files and their metadata within a single graph.
 
 ---
- 
-## Project structure
-
-- [Metabin schema](https://github.com/metabin/metabin-schema)
-
-Set of libraries and services for community-driven developing and maintaining of data schemas.
-
-- [Metabin share](https://github.com/metabin/metabin-share)
-
-Desktop cli and gui applications that makes it possible to share you local files using community-developed data schemas.
 
 ## Follow us
 
