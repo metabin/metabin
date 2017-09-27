@@ -36,7 +36,7 @@ Also schema field can store a nested schema in a form of a simple object with it
 {
   "field": "string",
   "nested": {
-    "field: "boolean"
+    "field": "boolean"
   }
 }
 ```
