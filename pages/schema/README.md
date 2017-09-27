@@ -57,7 +57,7 @@ Any schema looks like an associative dictionary of `field_name : field_type` pai
 {
   "title": "string",
   "director": {
-    "first name": "string"
+    "first name": "string",
     "last name": "string"
   },
   "year": "number",
@@ -92,7 +92,7 @@ Any entity object can be easilly extended so it's possible for community to main
 
 ```json
 {
-    "title": "string",
+  "title": "string",
     "artist": {
       "title": "string",
       "members": [
@@ -107,8 +107,8 @@ Any entity object can be easilly extended so it's possible for community to main
     "format": [[ "SINGLE", "LIVE", "STUDIO", "EP" ]],
     "cover": [
       {
-        size: [[ "SMALL", "MEDIUM", "LARGE" ]],
-        source: "string"
+        "size": [[ "SMALL", "MEDIUM", "LARGE" ]],
+        "source": "string"
       }
     ],
     "tracks": [ 
@@ -117,21 +117,6 @@ Any entity object can be easilly extended so it's possible for community to main
         "quality": [[ "web", "cd", "vinyl" ]]
       }
     ]
-  },
-  "nested": [
-    {
-      "name": "album-track",
-      "meta": {
-        "title": " string",
-        "number": " number",
-        "files": [ ".mp3", ".flac", ".wav", ".ogg" ]
-      }
-    },
-    {
-      "name": "album-cover",
-      ...
-    }
-  ]
 }
 ```
 
