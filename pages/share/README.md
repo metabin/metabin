@@ -10,6 +10,8 @@ File sharing as simple as possible.
 
 ## Roadmap
 
+- [ ] sharing libs
+  - [ ] js
 - [ ] command-line app
   - [ ] Node.js
 - [ ] gui app
