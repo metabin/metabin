@@ -23,12 +23,12 @@ Structured self describng data objects.
 
 ### Metabin share
 
-Share, search and download metabin objects from IPFS.
+Share and retrieve metabin objects from IPFS.
 
-- [metabin-share-spec]
+- metabin-share-spec
   - [version 1](pages/metabin-share/spec_v1.md)
-- [metabin-share]
-  - [js](https://github.com/metabin/metabin-share-js)
+- metabin-share-app
+  - [js+cli](https://github.com/metabin/metabin-share-js)
 
 ## Problems
 
