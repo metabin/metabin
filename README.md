@@ -1,8 +1,6 @@
 ![](/_banner.png)
 
-Sharing can be simpler, more effective, more distributed.
-
-The goal is to create a self-sufficient file sharing ecosystem for next-generation distributed apps, where decentralization does not harm user experience and functionality.
+The goal is to create a bunch of utilities for structured data sharing over IPFS.
 
 ## Table of Contents
 
@@ -14,18 +12,27 @@ The goal is to create a self-sufficient file sharing ecosystem for next-generati
 
 ## Project structure
 
-- [Metabin schema](pages/schema/README.md)
+### Metabin object
 
-Set of libraries and services for community-driven developing and maintaining of data schemas.
+Structured self describng data objects.
 
-- [Metabin share](pages/share/README.md)
+- metabin-object-spec
+  - [version 1](pages/metabin-object/spec_v1.md)
+- metabin-object-validator
+  - [js](https://github.com/metabin/metabin-object-validator-js)
 
-Desktop cli and gui applications that makes it possible to share you local files using community-developed data schemas.
+### Metabin share
+
+Share, search and download metabin objects from IPFS.
+
+- [metabin-share-spec]
+  - [version 1](pages/metabin-share/spec_v1.md)
+- [metabin-share]
+  - [js](https://github.com/metabin/metabin-share-js)
 
 ## Problems
 
 Today's BitTorrent-based ecosystem is stuck. Protocol itself is not very suitable for global-scale sharing but there is also cummunity-related issues we need to solve.
-
 
 ### Torrent-catalogs dependence
  
