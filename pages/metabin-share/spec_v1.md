@@ -4,9 +4,9 @@ Version 1
 
 ## Table of contents
 
-- [Api](##api)
-  - [Put metabin object](###put-metabin-object)
-  - [Get metabin object](###get-metabin-object)
+- [Api](#api)
+  - [Put metabin object](#put-metabin-object)
+  - [Get metabin object](#get-metabin-object)
 - [License](#license)
 
 ## Api
@@ -20,7 +20,7 @@ Version 1
 - returns:
   - `valid` flag (always)
   - array with validator reports (always)
-  - `cid` string field (always if `put anyway` is true, otherwise empty if object is invalid)
+  - `cid` string field (always if `put anyway` is true, otherwise only if object is valid)
 
 ### Get metabin object
 
@@ -31,7 +31,7 @@ Version 1
 - returns:
   - `valid` flag (always)
   - array with validator reports (always)
-  - metabin object
+  - metabin object (always)
 
 ## License
 
