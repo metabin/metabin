@@ -9,7 +9,7 @@ Version 1
 
 ## Root object
 
-Root object consists of thre fields:
+Root object consists of three fields:
 - `schema` field
   - stores an object that describes structure of `data` object
 - `data` field
