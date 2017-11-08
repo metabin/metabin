@@ -18,6 +18,10 @@ Structured self describng data objects.
 
 - metabin-object-spec
   - [version 1](pages/metabin-object/spec_v1.md)
+- metabin-schema-spec
+  - [version 1](pages/metabin-schema/spec_v1.md)
+- metabin-schema-validator
+  - [js](https://github.com/metabin/metabin-schema-validator-js)
 - metabin-object-validator
   - [js](https://github.com/metabin/metabin-object-validator-js)
 
