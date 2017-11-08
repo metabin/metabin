@@ -41,6 +41,7 @@ Metabin object with a data object and a json-schema object.
     "properties": {
       "field": {
         "type": "number"
+      }
     }
   },
   "data": {
