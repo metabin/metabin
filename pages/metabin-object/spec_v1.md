@@ -4,16 +4,16 @@ Version 1
 
 ## Table of contents
 
-- [Root object](#root-object)
+- [Fields](#fields)
 - [Examples](#examples)
 
-## Root object
+## Fields
 
-Root object consists of three fields:
+Metabin object consists of three fields:
 - `schema` field
   - stores an object that describes structure of `data` object
 - `data` field
-  - stores an object that describes an instance of a `shema`
+  - stores an object that describes an instance of a `schema`
 
 ## Examples
 
