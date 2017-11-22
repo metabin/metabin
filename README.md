@@ -14,7 +14,7 @@ The goal is to create a bunch of utilities for structured data sharing over IPFS
 
 ### Metabin object
 
-Structured self describng data objects.
+Self describing data objects.
 
 - metabin-object-spec
   - [version 1](pages/metabin-object/spec_v1.md)
@@ -29,9 +29,9 @@ Structured self describng data objects.
 
 Share and retrieve metabin objects from IPFS.
 
-- metabin-share-spec
-  - [version 1](pages/metabin-share/spec_v1.md)
-- metabin-share-app
+- metabin-gate
+  - [js](https://github.com/metabin/metabin-gate-js)
+- metabin-share
   - [js+cli](https://github.com/metabin/metabin-share-js)
 
 ## Problems
