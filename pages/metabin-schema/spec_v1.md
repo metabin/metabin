@@ -30,11 +30,11 @@ string* | `"string"` | `"Another Pirated Movie Title"`
 number | `"number"` | `2017`
 boolean | `"boolean"` | `false`
 ENUM | `[[ "E", "N", "U", "M" ]]` |  `0` or `1` or `2` or `3`
-binary** | `binary` |
+multihash** | `"multihash"` | `"Qme..."`
 
-*empty string `""` considered as an invalid `string` value
+*empty string `""` considered as an invalid `string` value.
 
-**`binary` typed fields in practice will be resolved programmatically as they lead to the data that can not be represented in human-readable JSON
+**`multihash` typed fields lead to the binary data that can not be represented in human-readable JSON so they should be resolved and validated individually by apps.
 
 ## Array of type
 
