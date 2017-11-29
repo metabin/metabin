@@ -15,10 +15,8 @@ Version 1
 To mark current json-object as a metabin schema use a "$spec" field with a `"metabin/${version number}"` value pattern.
 
 ```json
-{
-  "schema": {
-    "$spec": "metabin/1"
-  }
+"schema": {
+  "$spec": "metabin/1"
 }
 ```
 
