@@ -9,7 +9,7 @@ Version 1
 
 ## Fields
 
-Metabin object consists of three fields:
+Metabin object consists of two fields:
 - `schema` field
   - stores an object that describes structure of `data` object
 - `data` field
