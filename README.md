@@ -5,7 +5,7 @@ Schema-driven data sharing over IPFS.
 ## Table of Contents
 
 - [Project structure](#project-structure)
-- [Problems](#problems)
+- [Metabin-based apps](#metabin-based-apps)
 - [Follow us](#follow-us)
 - [Donate](#donate)
 - [License](#license)
@@ -33,6 +33,11 @@ Share and retrieve metabin objects from IPFS.
   - [js](https://github.com/metabin/metabin-gate-js)
 - metabin-share
   - [js+cli](https://github.com/metabin/metabin-share-js)
+
+## Metabin-based apps
+
+- :notes:  [Pathephone](https://github.com/pathephone/pathephone-desktop) - distributed music streaming app
+
 
 ## Follow us
 
